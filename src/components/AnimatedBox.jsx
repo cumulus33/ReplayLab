@@ -215,7 +215,7 @@ export function AnimatedBox() {
         frictionAir: 0.01
       })
    
-      const speed = 10 + Math.random() * 3
+      const speed = 15 + Math.random() * 3
       const angle = -Math.PI/2 + (Math.random() - 0.5) * Math.PI/8
       Matter.Body.setVelocity(body, {
         x: Math.cos(angle) * speed,
